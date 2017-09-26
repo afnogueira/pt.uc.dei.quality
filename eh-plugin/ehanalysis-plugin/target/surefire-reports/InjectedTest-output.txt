@@ -1,0 +1,45 @@
+Sep 21, 2017 11:46:29 PM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @442ms
+Picking up existing exploded jenkins.war at D:\MyPlugin\ehplugin\ehanalysis-plugin\target\jenkins-for-test
+Sep 21, 2017 11:46:30 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Sep 21, 2017 11:46:30 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.12.v20150709
+Sep 21, 2017 11:46:30 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Sep 21, 2017 11:46:30 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@d278d2b{/,file:/D:/MyPlugin/ehplugin/ehanalysis-plugin/target/jenkins-for-test/,AVAILABLE}{D:\MyPlugin\ehplugin\ehanalysis-plugin\target\jenkins-for-test}
+Sep 21, 2017 11:46:30 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@68702e03{HTTP/1.1}{localhost:64509}
+Sep 21, 2017 11:46:30 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @1591ms
+Sep 21, 2017 11:46:31 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 21, 2017 11:46:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 21, 2017 11:46:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 21, 2017 11:46:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 21, 2017 11:46:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 21, 2017 11:46:52 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Sep 21, 2017 11:47:23 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 64570
+Sep 21, 2017 11:47:23 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Sep 21, 2017 11:47:23 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.12.v20150709
+Sep 21, 2017 11:47:23 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@3543df7d{/,null,AVAILABLE}
+Sep 21, 2017 11:47:23 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@4212a0c8{HTTP/1.1}{0.0.0.0:64572}
+Sep 21, 2017 11:47:23 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @54400ms
+Sep 21, 2017 11:47:25 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@68702e03{HTTP/1.1}{localhost:0}
+Sep 21, 2017 11:47:25 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@d278d2b{/,file:/D:/MyPlugin/ehplugin/ehanalysis-plugin/target/jenkins-for-test/,UNAVAILABLE}{D:\MyPlugin\ehplugin\ehanalysis-plugin\target\jenkins-for-test}
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.

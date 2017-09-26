@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Group-Id: pt.uc.dei.cisuc
+Short-Name: ehanalysis-plugin
+Long-Name: TODO Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin
+Plugin-Version: 2.0-SNAPSHOT (private-09/21/2017 23:46-ANogueira)
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: 
+Libraries: D:\MyPlugin\ehplugin\ehanalysis-plugin\src\main\resources,D
+ :\MyPlugin\ehplugin\ehanalysis-plugin\target\classes
+Resource-Path: D:\MyPlugin\ehplugin\ehanalysis-plugin\src\main\webapp
+

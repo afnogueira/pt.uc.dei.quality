@@ -1,0 +1,37 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <!--
+    This jelly script is used for per-project configuration.
+
+    See global.jelly for a general discussion about jelly script.
+  -->
+
+  <!--
+    Creates a text field that shows the value of the "name" property.
+    When submitted, it will be passed to the corresponding constructor parameter.
+  -->
+  <f:entry title="Name" field="name">
+    <f:textbox />
+  </f:entry>
+  <f:entry name="goalType" title="Choose Goal Type" field="goalType">
+    <select name="goalType">
+    	<option value="staticAndDynamic">Static and Dynamic Analysis</option>
+        <option value="buildGoal">Static Analysis</option>
+        <option value="findBugsGoal">Dynamic Analysis</option>
+    </select>
+</f:entry>
+<f:block>
+  <table>
+    <f:optionalBlock name="dynamic" title="Generate Unit Tests">
+      <f:entry title="Select automated testing tool">
+        <select name="goalType">
+	    	<option value="ecrash">eCrash</option>
+	        <option value="evosuite">Evosuite</option>
+	        <option value="randoop">Randoop</option>
+	        <!--<option value="testful">Testful</option>-->
+    	</select>
+      </f:entry>
+    </f:optionalBlock>
+  </table>
+</f:block>
+</j:jelly>
